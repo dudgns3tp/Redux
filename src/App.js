@@ -1,11 +1,11 @@
 import React from 'react';
-import Counter from '../../redux-app/src/components/Counter'
-import Todos from ''
+import CounterContainer from './containers/CounterContainer'
+import Todos from './components/Todos'
 
 const App = () =>{
   return(
     <div>
-      <Counter number={0} />
+      <CounterContainer />
       <hr />
       <Todos />
     </div>
